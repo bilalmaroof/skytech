@@ -1,7 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
 #The Credit For This Code Goes To 🅑🅘🅛🅐🅛ₘᵣ_ᵦᵢₗₗᵢ
-#If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
 
@@ -48,7 +47,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.001)
 
-#Dev:Rana
+#Bilal Maroof
 ##### LOGO #####
 logo = """
 \033[1;95m░██████╗██╗░░██╗██╗░░░██╗
@@ -150,7 +149,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;97m🗝 \x1b[1;91mTool Password  \x1b[1;97m»» \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:Rana
+            print "Logged in successfully as " + username #Bilal Maroof
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -247,7 +246,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:Rana
+	os.system("clear") #Bilal Maroof
 	print logo
 	print "\033[1;97m«--•◄►••◄►•--\033[1;93mLogged in User Info\033[1;97m---•◄►••◄►•---»"
 	print "	   \033[1;93m ◄►••◄►Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
@@ -439,7 +438,7 @@ def pilih_crack():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Rana
+			pass #Bilal Maroof
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -649,7 +648,7 @@ def pilih_crack():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•\033[1;91m🅢🅚🅨🅣🅔🅒🅗\033[1;95m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•"
-	print "  \033[1;91m«---•◄►•---Developed By Rana-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Dev:Rana
+	print "  \033[1;91m«---•◄►•---Developed By #Bilal Maroof-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Bilal Maroof
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (0 & Data Reset)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
@@ -751,7 +750,7 @@ def pilih_hack():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Rana
+			pass #Bilal Maroof
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -962,7 +961,7 @@ def pilih_hack():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•\033[1;91m🅢🅚🅨🅣🅔🅒🅗\033[1;95m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•"
-	print "  \033[1;91m«---•◄►•---Developed By Rana-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Dev:Rana
+	print "  \033[1;91m«---•◄►•---Developed By #Bilal Maroof-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Bilal Maroof
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (0 & Data Reset)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
@@ -1055,7 +1054,7 @@ def pilih_black():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Rana
+			pass #Bilal Maroof
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -1265,7 +1264,7 @@ def pilih_black():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•\033[1;91m🅢🅚🅨🅣🅔🅒🅗\033[1;95m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•"
-	print "  \033[1;91m«---•◄►•---Developed By Rana-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Dev:Rana
+	print "  \033[1;91m«---•◄►•---Developed By #Bilal Maroof-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Bilal Maroof
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (0 & Data Reset)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
@@ -1361,7 +1360,7 @@ def pilih_Tiger():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Rana
+			pass #Bilal Maroof
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -1570,7 +1569,7 @@ def pilih_Tiger():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•\033[1;94m🅢🅚🅨🅣🅔🅒🅗\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•"
-	print "  \033[1;94m«---•◄►•---Developed By Rana-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Dev:Rana
+	print "  \033[1;94m«---•◄►•---Developed By #Bilal Maroof-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Bilal Maroof
 	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (0 & Data Reset)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
 	print """
@@ -1668,7 +1667,7 @@ def pilih_test():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Rana
+			pass #Bilal Maroof
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -1877,7 +1876,7 @@ def pilih_test():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•\033[1;94m🅢🅚🅨🅣🅔🅒🅗\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•"
-	print "  \033[1;94m«---•◄►•---Developed By Rana-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Dev:Rana
+	print "  \033[1;94m«---•◄►•---Developed By #Bilal Maroof-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Bilal Maroof
 	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (0 & Data Reset)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
 	print """
@@ -1967,7 +1966,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Rana
+			pass #Bilal Maroof
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -2176,7 +2175,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•\033[1;94m🅢🅚🅨🅣🅔🅒🅗\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•"
-	print "  \033[1;94m«---•◄►•---Developed By Rana-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Dev:Rana
+	print "  \033[1;94m«---•◄►•---Developed By #Bilal Maroof-ₘᵣ_ᵦᵢₗₗᵢ--•◄►•---»" #Bilal Maroof
 	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (0 & Data Reset)↩\033[1;91m....'
 	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
 	print """
